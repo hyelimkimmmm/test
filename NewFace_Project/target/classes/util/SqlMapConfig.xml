@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+	<!-- join_file=#{join_file, jdbcType=VARCHAR}, join_original=#{join_original, 
+		jdbcType=VARCHAR} join_file=#{join_file}, join_original=#{join_original} 
+		안써도된다. -->
+	<settings>
+		<setting name="jdbcTypeForNull" value="NULL" />
+	</settings>
+	<typeAliases>
+		<!-- <typeAlias alias="AddList" type="com.NewFace.pro.Model.AddListBean" /> -->
+		<!-- <typeAlias alias="FriendList" type="com.NewFace.pro.model.FriendListBean" />
+		<typeAlias alias="JoinModify" type="com.NewFace.pro.model.JoinModifyBean" /> -->
+	</typeAliases>
+
+</configuration>

@@ -1,0 +1,133 @@
+@charset "UTF-8";
+* ul li {
+	list-style: none;
+}
+
+#wrap {
+	width: 100%;
+}
+
+
+.line {
+	width: 800px;
+}
+
+.text1{
+	text-align:center;
+}
+
+.main {
+	min-width: 1280px;
+	width:1280px;
+	margin:0 auto;
+}
+
+.img_pro{
+    margin-top: 45px;
+	margin-left:22%;
+}
+
+.pro_1, .pro_2, .pro_3, .pro_4 {
+	width:140px;
+	height:165px;
+	background:#f1f1f1;
+	float:left;
+	margin-left:31px;
+	text-align: center;
+    line-height: 10;
+    color:white;
+}
+
+.btn{
+    position: relative;
+    top: 8px;
+    float: left;
+    left: 313px;
+}
+
+input[type=file]{
+	width:140px;
+	height:40px;
+	margin-right:26px;
+	text-decoration:none;
+	color:gray;
+	border:none;
+	background:#f1f1f1;
+	
+}
+
+.location_total{
+    margin-top: 253px;
+    margin-left: 311px;
+}
+
+.text2{
+	float:left;
+    margin-top: 24px;
+}
+
+
+.hobby{
+	margin-left:311px;
+	margin-top:32px;
+}
+
+.friend_matching{
+	margin-left:311px;
+	margin-top:20px;
+}
+
+.text4{
+	float:left;
+}
+
+input[type=radio]{
+	margin-top:25px;
+	
+}
+
+.text5{
+	float:left;
+}
+
+textarea{
+    margin-top: 22px;
+    margin-left: 15px;
+    width:557px;
+}
+
+.introduce{
+    margin-left: 311px;
+    margin-top: 22px;
+}
+
+
+.Add_menu{
+	margin-left:38%;
+	margin-top:20px;
+}
+
+input[type=submit]{
+	width:160px;
+	height:60px;
+	background:gray;
+	border:none;
+	text-align:center;
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:none;
+	color:white;
+	font-size:16px;
+}
+input[type=reset]{
+	width:160px;
+	height:60px;
+	background:pink;
+	border:none;
+	text-align:center;
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:none;
+	color:white;
+	font-size:16px;
+}
